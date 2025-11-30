@@ -1,0 +1,33 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+fieldset {
+    text-align: center;
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div{
+    margin:4rem;
+}
+
+input {
+    display: block;
+    text-align: center;
+    border: none;
+    font-size: 1.1rem;
+    width: 100%;
+
+}

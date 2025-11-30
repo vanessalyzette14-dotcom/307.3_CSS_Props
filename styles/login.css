@@ -1,0 +1,38 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+fieldset {
+    text-align: center;
+    width: 350px;
+    height: 500px;
+    box-shadow: 8px 10px 10px 5px rgba(0, 0, 0, 0.423);
+
+    /* To center */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div {
+    margin: 4rem;
+}
+
+input {
+    display: block;
+    text-align: center;
+    border: none;
+    font-size: 1.1rem;
+    background-color: rgb(223, 223, 222);
+    width: 100%;
+    padding: 20px;
+}
