@@ -7,7 +7,11 @@ html {
     height: 100%;
     box-sizing: border-box;
     /* background: no-repeat center fixed url("../images/mountains2.jpg");
-   background-size: cover ; */
+   background-size: cover ; */ 
+}
+
+.bg{
+    background: linear-gradient(black, red);
 }
 
 *,
@@ -35,7 +39,7 @@ html {
     /* border: 10px ridge slategray; */
     border-bottom: 35px ridge slategray;
     border-top: 30px ridge slategray;
-    /* border-radius: 50%; */
+    border-radius: 50%;
     box-shadow: 10px 10px 10px 5px rgba(0, 0, 0, 0.481);
 
 }
