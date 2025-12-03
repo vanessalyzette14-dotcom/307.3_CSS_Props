@@ -1,14 +1,44 @@
-/* body, html {
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
+
+body,
+html {
     margin: 0;
     padding: 0;
     height: 100%;
     box-sizing: border-box;
+    /* background: no-repeat center fixed url("../images/mountains2.jpg");
+   background-size: cover ; */
 }
 
-*, *::before, *::after{
+*,
+*::before,
+*::after {
     box-sizing: inherit;
-} */
+    font-family: "Nosifer", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 
+}
+
+#modal {
+    height: 200px;
+    width: 200px;
+    background-color: rgba(255, 0, 0);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    /* border: 10px ridge slategray; */
+    border-bottom: 35px ridge slategray;
+    border-top: 30px ridge slategray;
+    /* border-radius: 50%; */
+    box-shadow: 10px 10px 10px 5px rgba(0, 0, 0, 0.481);
+
+}
 
 /* 
 div {
@@ -18,5 +48,3 @@ div {
     justify-content: center;
     align-items: center;
 } */
-
-
